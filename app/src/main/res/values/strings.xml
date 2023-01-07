@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">FWD Loading</string>
+    <string name="app_description">Download files from Internet</string>
+    <string name="download_icon_description">Download files from Internet Icon</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="notification_title">Udacity: Android Kotlin Nanodegree </string>
+    <string name="notification_description">The Project 3 repository is downloaded</string>
+    <string name="notification_button">See changes</string>
+
+    <string name="button_download">Download</string>
+    <string name="button_name">Click me</string>
+    <string name="button_loading">We are loading </string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+
+    <string name="glide_group_button_title">Glide-Image Loading Library by BumpTech</string>
+    <string name="load_app_group_button_title">LoadApp - Current repository by Udacity</string>
+    <string name="retrofit_group_button_title">Retrofit - Type-Safe HTTP client for Android and Java by Square, Inc</string>
+
+    <string name="glide_download_link">https://github.com/bumptech/glide/archive/master.zip</string>
+    <string name="app_download_link">https://github.com/udacity/nd940-c3-advanced-android-programming-project-starter/archive/master.zip</string>
+    <string name="retrofit_download_link">https://github.com/square/retrofit/archive/master.zip</string>
+
+    <string name="please_choose_option_to_download">Please Choose Option To Download</string>
+
+    <string name="downloading_finish">Downloading Finish</string>
+    <string name="view_details">View Details</string>
+
+    <string name="downloading_notification_channel_id">download_channel</string>
+    <string name="downloading_notification_channel_name">Download Files</string>
+
+    <string name="glide_download_message">Glide File</string>
+    <string name="app_download_message">App File</string>
+    <string name="retrofit_download_message">Retrofit File</string>
+    <string name="file_name">File name:</string>
+    <string name="status">Status</string>
+    <string name="message_floar_button">message floar button</string>
+</resources>
