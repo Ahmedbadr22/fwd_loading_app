@@ -34,6 +34,12 @@ fun NotificationManager.sendNotification(
         PendingIntent.FLAG_UPDATE_CURRENT
     )
 
+    val action: Notification.Action = Notification.Action.Builder(
+        R.drawable.ic_launcher_foreground,
+        applicationContext.getString(R.string.check_the_status),
+        pendingIntent
+    ).build()
+
     val builder = Notification.Builder(
         applicationContext,
         applicationContext.getString(R.string.downloading_notification_channel_id)
@@ -43,6 +49,7 @@ fun NotificationManager.sendNotification(
         setContentText(messageBody)
         setContentIntent(pendingIntent)
         setAutoCancel(true)
+        addAction(action)
     }
 
     notify(NOTIFICATION_ID, builder.build())

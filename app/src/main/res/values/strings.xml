@@ -37,4 +37,5 @@
     <string name="file_name">File name:</string>
     <string name="status">Status</string>
     <string name="message_floar_button">message floar button</string>
+    <string name="check_the_status">Check The Status</string>
 </resources>
